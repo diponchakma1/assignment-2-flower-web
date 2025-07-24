@@ -29,7 +29,6 @@ img {
 /* navbar styles */
 .navbar {
     justify-content: space-between;
-    /* background-color: aquamarine; */
     margin-top: 30px;
     align-items: center;
     margin-bottom: 100px;
@@ -85,12 +84,19 @@ img {
     margin-bottom: 80px;
 }
 
-.our-plant-content {
+.our-plant-content,
+.latest-deal-content {
     text-align: center;
     justify-content: center;
 }
 
-.our-plant-description {
+.our,
+.latest {
+    color: #E95A08;
+}
+
+.our-plant-description,
+.latest-deal-description {
     margin-top: 15px;
     margin-bottom: 40px;
 }
@@ -155,7 +161,9 @@ img {
     flex: 1;
 }
 
-.plants-lover-title {
+.plants-lover-title,
+.our-plant-title,
+.latest-deal-title {
     font-size: 3rem;
     font-weight: 700;
     font-family: Noto Serif;
@@ -169,6 +177,87 @@ img {
     margin-top: 10px;
 }
 
+/* challenge part */
+/* latest deals styles */
+
+.latest-deal-banner {
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+.latest-deal-left {
+    width: 25%;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-deal-left>div {
+    flex: 1;
+}
+
+.bloom-plant {
+    display: flex;
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ana-plant {
+    display: flex;
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-deal-right {
+    flex: 1;
+    background-image: url(./assets/deal-zabo.png);
+    height: 420px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-deal-left .discount {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.latest-deal-left .shop {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.latest-deal-right .discount {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.latest-deal-right .shop {
+    font-size: 1.75rem;
+}
+
+.shop {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+}
+
+.discount {
+    color: white;
+    font-family: Noto Serif;
+}
+
 /* join section styles */
 .join-section {
     background-image: url(./assets/news-letter-bg.png);
@@ -178,6 +267,7 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+    margin-top: 120px;
 
 }
 
