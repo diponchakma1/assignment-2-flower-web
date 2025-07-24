@@ -16,10 +16,16 @@ img {
     width: 1050px;
 }
 
+.font {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: inter;
+    font-size: 1.25rem;
+}
+
 /* navbar styles */
 .navbar {
     justify-content: space-between;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin-top: 30px;
     align-items: center;
 }
@@ -35,4 +41,37 @@ img {
 
 .nav-link li a {
     text-decoration: none;
+}
+
+.nav-link .home {
+    color: #252432
+}
+
+.nav-link .about-shop {
+    color: #8987A1;
+}
+
+/* banner section style */
+
+.banner {
+    align-items: end;
+}
+
+.banner-left-side {
+    width: 50%;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: Noto serif;
+}
+
+.banner-title-color {
+    color: #E95A08;
+}
+
+.banner-right-side {
+    width: 50%;
 }

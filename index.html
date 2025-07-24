@@ -8,11 +8,19 @@
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/53b55d1e90.js" crossorigin="anonymous"></script>
     <title>Assignment-2 (Flower Responsive)</title>
+    <!-- Google Font inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Google Font Noto Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-    <!-- tailwind CDN
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-
-    <!-- custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,14 +31,23 @@
             <img src="./assets/logo.png" alt="">
         </div>
         <div class="nav-link">
-            <li><a href="">Home</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">About Us</a></li>
+            <li><a class="home" href="">Home</a></li>
+            <li><a class="about-shop" href="">Shop</a></li>
+            <li><a class="about-shop" href="">About Us</a></li>
             <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart($56)</a></li>
         </div>
     </nav>
-    <section>
-
+    <section class="banner container">
+        <div class="banner-left-side">
+            <h2 class="banner-title">ALWAYS <span class="banner-title-color">FRESH FLOWERS</span></h2>
+            <p class="banner-description font">Indulge your senses with the beauty and fragrance of our fresh flower
+                shop.
+                From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any
+                occasion. </p>
+        </div>
+        <div class="banner-right-side">
+            <img src="./assets/hero-flower.png" alt="">
+        </div>
     </section>
 </body>
 
