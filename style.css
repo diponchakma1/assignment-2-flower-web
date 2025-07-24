@@ -5,6 +5,11 @@
 }
 
 /* common styles */
+
+.hide {
+    display: hidden;
+}
+
 img {
     width: 100%;
     height: 100%;
@@ -13,7 +18,7 @@ img {
 .container {
     display: flex;
     margin: 0 auto;
-    width: 1050px;
+    width: 1100px;
 }
 
 .font {
@@ -28,6 +33,7 @@ img {
     /* background-color: aquamarine; */
     margin-top: 30px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .nav-link {
@@ -57,8 +63,8 @@ img {
     align-items: end;
 }
 
-.banner-left-side {
-    width: 50%;
+.banner>div {
+    flex: 1;
 }
 
 .banner-title {
@@ -72,6 +78,92 @@ img {
     color: #E95A08;
 }
 
-.banner-right-side {
-    width: 50%;
+/* our plant style */
+.our-plant {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.our-plant-content {
+    text-align: center;
+    justify-content: center;
+}
+
+.our-plant-description {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.plants-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    /* width: 250px; */
+    text-align: center;
+}
+
+.card-info {
+    margin: 20px auto;
+}
+
+.card-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-btn button {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.card-name {
+    color: #111111;
+    font-weight: 500;
+}
+
+.card-price {
+    color: #111111;
+    font-weight: 700;
+}
+
+/* Responsive for small device 576px */
+@media screen and (max-width: 576px) {
+
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    .home,
+    .about-shop {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    /* .banner-right-side img {
+        width: 100%
+    } */
+
+    /* .banner-left-side {
+        width: 100%
+    } */
+
+    .banner-title {
+        font-size: 2rem;
+    }
 }
