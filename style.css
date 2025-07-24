@@ -169,6 +169,93 @@ img {
     margin-top: 10px;
 }
 
+/* join section styles */
+.join-section {
+    background-image: url(./assets/news-letter-bg.png);
+    width: 100%;
+    height: 530px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.join-title {
+    font-family: Noto Serif;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form input {
+    padding: 10px 600px 10px 10px;
+    position: relative;
+}
+
+.form-btn {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* footer section style */
+
+.footer-section {
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.nav-links li,
+.other-links li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.important-links-1 li,
+.important-links-2 li {
+    list-style: none;
+
+}
+
+.important-links-1 li a,
+.important-links-2 li a {
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.company-info {
+    width: 350px;
+}
+
+.footer-logo {
+    width: 130px;
+    margin-bottom: 15px;
+
+
+}
+
 /* Responsive for small device 576px */
 @media screen and (max-width: 576px) {
 
