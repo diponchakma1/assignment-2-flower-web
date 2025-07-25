@@ -378,6 +378,8 @@ img {
         align-items: center;
         justify-content: space-between;
         max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .home,
@@ -440,7 +442,11 @@ img {
         height: 100%;
     }
 
-    .latest-deal-left>.bloom-plant .ana-plant {
+    .latest-deal-banner>div {
+        flex: 1;
+    }
+
+    .latest-deal-left>div {
         width: 100%;
     }
 
@@ -458,4 +464,13 @@ img {
         height: 530px;
     }
 
+    .footer-section {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .company-info {
+        margin-bottom: 20px;
+        width: 100%;
+    }
 }
