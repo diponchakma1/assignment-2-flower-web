@@ -238,14 +238,11 @@ img {
 
 .latest-deal-right {
     flex: 1;
-}
-
-.zabo-plant {
+    display: flex;
     background-image: url(./assets/deal-zabo.png);
     height: 420px;
     background-repeat: no-repeat;
     border-radius: 20px;
-    display: flex;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -467,6 +464,7 @@ img {
         gap: 25px;
         display: flex;
         flex-direction: column;
+
     }
 
     .join-section {
