@@ -51,6 +51,7 @@ img {
     margin-top: 30px;
     align-items: center;
     margin-bottom: 100px;
+    border: 1px solid tomato;
 }
 
 .nav-link {
@@ -78,6 +79,7 @@ img {
 
 .banner {
     align-items: end;
+    border: 1px solid tomato;
 }
 
 .banner>div {
@@ -101,6 +103,7 @@ img {
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 80px;
+    border: 1px solid tomato;
 }
 
 .our-plant-content,
@@ -166,6 +169,7 @@ img {
     position: relative;
     margin-top: 160px;
     margin-bottom: 130px;
+    border: 1px solid tomato;
 }
 
 .badge {
@@ -205,6 +209,7 @@ img {
     justify-content: space-between;
     gap: 25px;
     margin-top: 100px;
+    border: 1px solid tomato;
 }
 
 .latest-deal-left {
@@ -212,6 +217,7 @@ img {
     gap: 25px;
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
 }
 
 .latest-deal-left>div {
@@ -246,6 +252,7 @@ img {
     background-size: cover;
     justify-content: center;
     align-items: center;
+    border: 1px solid blue;
 }
 
 .latest-deal-left .discount {
@@ -289,6 +296,7 @@ img {
     align-items: center;
     margin-bottom: 50px;
     margin-top: 120px;
+
 
 }
 
@@ -340,9 +348,14 @@ img {
 }
 
 .important-links-1 li,
-.important-links-2 li {
+.important-links-2 li,
+.social-links li {
     list-style: none;
 
+}
+
+.twitter {
+    margin-top: 10px;
 }
 
 .important-links-1 li a,
@@ -351,10 +364,12 @@ img {
     color: #6B7280;
 }
 
-.social-links {
+.social-link {
     display: flex;
     gap: 20px;
+    border: 1px solid tomato;
 }
+
 
 .company-info {
     width: 350px;
@@ -456,7 +471,8 @@ img {
     }
 
     .latest-deal-left>div {
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
     }
 
     .latest-deal-right {
@@ -464,6 +480,8 @@ img {
         gap: 25px;
         display: flex;
         flex-direction: column;
+        width: 100vw;
+        height: 100vh;
 
     }
 
@@ -502,4 +520,10 @@ img {
         margin-bottom: 25px;
         width: 100%;
     }
+
+    .social-link {
+        width: fit-content;
+    }
+
+
 }
