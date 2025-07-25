@@ -378,8 +378,18 @@ img {
         align-items: center;
         justify-content: space-between;
         max-width: 100%;
-        margin-left: 20px;
+        justify-items: center;
+    }
+
+    .cart {
         margin-right: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 80px;
+        height: 80px;
+
     }
 
     .home,
@@ -397,7 +407,7 @@ img {
     }
 
     .banner-title {
-        font-size: 2rem;
+        font-size: 2.15rem;
     }
 
 
