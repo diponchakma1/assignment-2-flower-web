@@ -238,6 +238,9 @@ img {
 
 .latest-deal-right {
     flex: 1;
+}
+
+.zabo-plant {
     background-image: url(./assets/deal-zabo.png);
     height: 420px;
     background-repeat: no-repeat;
@@ -388,8 +391,13 @@ img {
     }
 
     .banner-left-side {
-        margin: 20px 16px;
+        margin: 20px 20px;
     }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
 
     .our-plant {
         width: 100%;
@@ -405,15 +413,49 @@ img {
     }
 
     .card {
-        margin: 20px 16px;
+        margin: 20px 20px;
+    }
+
+    .plants-lover-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 16px;
     }
 
     .badge {
         display: none;
     }
 
-    .banner-title {
-        font-size: 2rem;
+    .latest-deal-section {
+        flex-direction: column;
+    }
+
+    .latest-deal-content {
+        margin: 120px 25px 50px;
+    }
+
+    .latest-deal-banner {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .latest-deal-left>.bloom-plant .ana-plant {
+        width: 100%;
+    }
+
+    .latest-deal-right {
+        background-size: 170px 360px;
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join-section {
+        flex-direction: column;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 530px;
     }
 
 }
