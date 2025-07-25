@@ -421,7 +421,9 @@ img {
     .plants-lover-section {
         flex-direction: column;
         width: 100%;
-        margin: 0px 16px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
     }
 
     .badge {
