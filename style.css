@@ -7,7 +7,7 @@
 /* common styles */
 
 .hide {
-    display: hidden;
+    display: none;
 }
 
 img {
@@ -24,6 +24,25 @@ img {
     color: rgba(0, 0, 0, 0.5);
     font-family: inter;
     font-size: 1.25rem;
+}
+
+/* animation */
+
+@keyframes badge-animation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 /* navbar styles */
@@ -155,6 +174,8 @@ img {
     left: 370px;
     width: 270px;
     height: 270px;
+
+    animation: badge-animation 1.8s ease-in-out infinite;
 }
 
 .plants-lover-section>div {
@@ -363,17 +384,36 @@ img {
 
     .banner {
         flex-direction: column-reverse;
+        width: 100%;
     }
 
-    /* .banner-right-side img {
-        width: 100%
-    } */
+    .banner-left-side {
+        margin: 20px 16px;
+    }
 
-    /* .banner-left-side {
-        width: 100%
-    } */
+    .our-plant {
+        width: 100%;
+    }
+
+    .our-plant-description {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .plants-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        margin: 20px 16px;
+    }
+
+    .badge {
+        display: none;
+    }
 
     .banner-title {
         font-size: 2rem;
     }
+
 }
