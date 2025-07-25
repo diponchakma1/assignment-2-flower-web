@@ -205,7 +205,6 @@ img {
     justify-content: space-between;
     gap: 25px;
     margin-top: 100px;
-    border: 1px solid tomato;
 }
 
 .latest-deal-left {
@@ -213,7 +212,6 @@ img {
     gap: 25px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
 }
 
 .latest-deal-left>div {
@@ -227,6 +225,8 @@ img {
     border-radius: 20px;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    height: 420px;
 }
 
 .ana-plant {
@@ -236,6 +236,7 @@ img {
     border-radius: 20px;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
 
 .latest-deal-right {
@@ -467,7 +468,14 @@ img {
 
     .bloom-plant {
         width: 100vw;
-        height: 100vh;
+        height: 420px;
+        border: 2px solid green;
+        background-size: cover;
+
+    }
+
+    .bloom-plant>div {
+        padding: 100px 0px;
     }
 
     .ana-plant {
@@ -475,9 +483,13 @@ img {
         height: 100vh;
     }
 
+    .ana-plant>div {
+        padding: 100px 0px;
+    }
+
     .latest-deal-left {
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -486,7 +498,7 @@ img {
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 100vh;
+        min-height: 280px;
 
     }
 
@@ -494,6 +506,7 @@ img {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        margin-top: 450px;
         width: 100%;
         height: 300px;
 
